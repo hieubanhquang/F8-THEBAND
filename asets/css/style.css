@@ -28,6 +28,7 @@
 
 #html {
 font-family: Arial, Helvetica, sans-serif;
+
 }
 #main {
 
@@ -42,7 +43,6 @@ font-family: Arial, Helvetica, sans-serif;
     left: 0px;
     right: 0px;
     z-index: 1;
-  
 }
 #header .nav{
     display: flex;
@@ -92,20 +92,25 @@ min-width: 160px;
 }
 #header .nav i{
     font-size: 12px;
+    
+
 } 
-#header .timkiem i{
+#header .timkiem i,
+#header .ti-menu{
     color: #fff;
     padding: 0px 24px;
     line-height: 46.5px;
     
 }
-#header .timkiem i:hover{
+#header .timkiem i:hover,
+#header .ti-menu:hover{
     background-color: aliceblue;
     color: #000;
     display: inline-block;
 }
 
 #slider{
+    width: 100%;
    padding-top: 50%;
    margin-top: 46.5px;
    background: url('../img/slider/OIP.webp') top center / cover no-repeat;
@@ -133,16 +138,17 @@ min-width: 160px;
     white-space:nowrap;
 
 }
-#content{
+.content{
 
 }
-#content .subcontent {
-    width: 800px;
+.content .subcontent {
+    width: 100%;
+    max-width: 1000px;
     padding: 64px 16px;
-   margin: auto;
-    
+    margin: auto;
+    box-sizing: border-box;
 }
-#content .subcontent h2{
+.content .subcontent h2{
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -150,30 +156,30 @@ min-width: 160px;
 
 
 }
-#content .subcontent .slogan{
+.content .subcontent .slogan{
     text-align: center;
     color: rgb(111, 112, 115);
     margin-top: 15px;
     font-style: italic;
 }
-#content .subcontent .about{
+.content .subcontent .about{
     margin-top: 15px;
     font-size: 15px;
     line-height: 23px;
     text-align: justify;
 }
-#content .subcontent .name-list{
+.content .subcontent .name-list{
    margin-top: 48px;
     text-align: center;
 }
 
-#content .subcontent .name-list img {
+.content .subcontent .name-list img {
 width: 60%;
 
 padding-top: 15px;
 
 }
-#content .subcontent .name-list p{
+.content .subcontent .name-list p{
     font-size: 15px;
 }
 .tour-ticket{
@@ -375,7 +381,7 @@ margin-top: -5px;
     line-height: 25px;
     display: flex;
     flex-direction: column;
-}
+}  
 .modal-body label{
     font-size: 15px;
     font-weight: 500;

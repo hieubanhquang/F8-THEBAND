@@ -1,0 +1,135 @@
+/*pc*/
+@media (min-width: 64em){
+  #header .ti-menu{
+    display: none;
+  }
+  #header .timkiem{
+    margin-left: auto;
+  }
+}
+/*tablet*/
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+  #header .ti-menu{
+    display: none;
+  }
+  #header .timkiem{
+    margin-left: auto;
+  }
+  .input-imformation .place-name .name, 
+  .input-imformation .place-name .email, 
+  .input-imformation .message
+{
+    padding: 15px 15px;
+}
+#footer .internet i{
+font-size: 38px;
+padding: 0px 5px;
+}
+#footer .W3-shcool {
+    font-size: 30px;
+    margin-top: 25px;
+}
+}
+/*mobile*/
+@media (max-width: 46.1875em){
+    .col-full {
+        width: 90% !important;
+    }
+    .col-send {
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .nav{
+        width: 100%;
+        flex-direction: column;
+    }
+    #header .nav li a{
+        padding: 1px 24px;
+    }
+    #header .nav .subnav{
+        position:inherit;
+       
+    }
+    #header .nav .subnav  a{
+        color: #fff;
+        background-color: #292727;
+        padding: 5px 40px;
+    }   
+    #header .timkiem{
+        display: none;
+    }
+    #slider .text-content {
+        width: 100%;
+        padding: 16px;
+    }
+
+    #slider .text-content .subtieude {
+        white-space: normal;
+    }
+     .contact-content {
+        display: block;
+        height: auto;
+    }
+
+    .contact-content .imformation,
+    .contact-content .input-imformation {
+        width: 100%;
+    }
+
+    .input-imformation .place-name {
+        gap: 8px;
+    }
+
+    .input-imformation .place-name .name,
+    .input-imformation .place-name .email {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .input-imformation .send {
+        display: block;
+        width: fit-content;
+        margin: 0 0 0 auto;
+    }
+    #header .timkiem i, #header .ti-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+    #slider .text-content {
+        display: none;
+    }
+    .col {
+        float: none;
+        margin-bottom: 16px;
+    }
+    .col-thirt {
+      width: 100%;
+    }
+    .content .subcontent .name-list img {
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.content .subcontent .slogan {
+  
+    margin-bottom: 50px;
+}
+.contact-content .imformation {
+    margin-bottom: 20px;
+}
+.input-imformation .place-name .name, .input-imformation .place-name .email {
+        width: 100%;
+        min-width: 0;
+    }
+    .input-imformation .place-name {
+    display: block;
+        flex-direction: column;
+}
+.input-imformation .place-name .name, .input-imformation .place-name .email, .input-imformation .message {
+    margin-bottom: 5px;
+    
+}
+}
